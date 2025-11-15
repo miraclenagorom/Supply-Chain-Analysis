@@ -1,8 +1,25 @@
 # Supply Chain Analysis
 
+## Table Of Contents
+
+- [Project Overview](#project_overview)
+- [Data sources](#data-sources)
+- [Tools](#tools)
+- [Data Cleaning/Preparation](#data-cleaning/preparation)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Results/Findings](#Results/Findings)
+- [Recommendations](#Recommendations)
+- [Limitations](#Limitations)
+
+  
 ### Project Overview
 
 This data analysis project aims to The purpose of the analysis is to determine which part of the supply chain can be improved or shortened to deliver the product more quickly and efficiently to the customers.
+
+![IMG-20241211-WA0146](https://github.com/user-attachments/assets/b26c0e44-626c-4e7a-afd5-c5792e4634ed)
+
+![IMG-20241211-WA0147](https://github.com/user-attachments/assets/d0eb4446-5c62-4ce8-93d6-920150992d8b)
 
 ### Data Sources
 
@@ -48,6 +65,18 @@ The analsis results are summarized as follows:
 1. Carrier B generated over 250,094 in revenue which made it the carrier with most generated revenue 
 2. In product type skincare ranked highest with 41.83% in revenue generation 
 3. More products were shipped by road compared to other transport modes
+
+### Recommendations
+
+Based on the analysis, I recommend the following actions;
+- Skincare product type generated ovr 50% revenue compared to haircare & cosmetics
+- Carrier B has the highest shipping costs compared to carrier C & carrier A. To cut cost I recommend carrier A.
+To cut cost I recommend carrier A should be used for shipping more.
+
+### Limitations
+
+The segmentation and visualization were performed using available tools such as Excel and Power BI, 
+which may limit the depth of predictive insights compared to advanced machine learning models.
 
 
 
