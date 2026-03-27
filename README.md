@@ -15,11 +15,22 @@
   
 ### Project Overview
 
-This data analysis project aims to The purpose of the analysis is to determine which part of the supply chain can be improved or shortened to deliver the product more quickly and efficiently to the customers.
+This project analyzes supply chain operations to identify inefficiencies in delivery performance, vendor reliability, and inventory movement.
+The objective was to provide data-driven insights that improve operational efficiency, reduce delays, and enhance order fulfillment performance.
 
-![IMG-20241211-WA0146](https://github.com/user-attachments/assets/b26c0e44-626c-4e7a-afd5-c5792e4634ed)
 
-![IMG-20241211-WA0147](https://github.com/user-attachments/assets/d0eb4446-5c62-4ce8-93d6-920150992d8b)
+### Business Problem
+
+Supply chain inefficiencies often lead to:
+Delayed deliveries
+Poor vendor performance
+Inventory imbalances
+
+This analysis answers:
+- Where are delays happening in the supply chain?
+- Which vendors are underperforming?
+- How can delivery performance be improved?
+
 
 ### Data Sources
 
@@ -36,6 +47,12 @@ In the initial data preparation phase, I perfomed the following tasks:
 1. Data loading & Inspection
 2. Handling missing values 
 3. Data cleaning & formatting
+4. Handled missing and inconsistent delivery records
+5. Standardized date formats for accurate time analysis
+6.  Created calculated fields for:
+- Delivery Delay (Actual vs Expected Delivery)
+- Vendor Performance Metrics
+- Ensured data consistency across all tables
 
 ### Exploratory Data Analysis
 
@@ -65,13 +82,32 @@ The analsis results are summarized as follows:
 1. Carrier B generated over 250,094 in revenue which made it the carrier with most generated revenue 
 2. In product type skincare ranked highest with 41.83% in revenue generation 
 3. More products were shipped by road compared to other transport modes
+4. Certain delivery routes consistently experienced longer delays
+5. Inventory turnover varied across products, indicating inefficiencies in stock management
+6. High-performing vendors contributed disproportionately to on-time deliveries
 
 ### Recommendations
 
 Based on the analysis, I recommend the following actions;
-- Skincare product type generated ovr 50% revenue compared to haircare & cosmetics
-- Carrier B has the highest shipping costs compared to carrier C & carrier A. To cut cost I recommend carrier A.
-To cut cost I recommend carrier A should be used for shipping more.
+- To cut cost I recommend carrier A should be used for shipping more.
+- Prioritize partnerships with high-performing vendors
+- Address bottlenecks in frequently delayed delivery routes
+- Improve inventory planning to reduce stock inefficiencies
+- Implement real-time tracking dashboards for supply chain monitoring
+
+
+![IMG-20241211-WA0146](https://github.com/user-attachments/assets/b26c0e44-626c-4e7a-afd5-c5792e4634ed)
+
+![IMG-20241211-WA0147](https://github.com/user-attachments/assets/d0eb4446-5c62-4ce8-93d6-920150992d8b)
+
+
+### Business Impact
+
+This analysis supports:
+Faster delivery timelines
+Improved vendor selection decisions
+Better inventory management
+Enhanced operational efficiency
 
 ### Limitations
 
